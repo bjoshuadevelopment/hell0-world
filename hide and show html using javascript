@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script>
+    function hide(umubare){
+      if(umubare == "1"){
+          document.getElementById('one').style.display='none';
+      }
+      else{
+         document.getElementById('one').style.display='block';
+      }
+
+    }
+    </script>
+</head>
+<body>
+    <select id="umubare" onchange="hide(this.value)">
+        <option>select </option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <div id="one">
+    ....
+        <h4 id="test">textsSDFtring</h4>
+    ....
+        <div id="two">
+        ...
+        </div>
+    ...
+    </div>
+</body>
+</html>
