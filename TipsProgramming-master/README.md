@@ -6,6 +6,8 @@ Generate password
 
 echo -n yourPass |sha256sum
 
-Lionel Ngendakuriyo
+Got from Lionel Ngendakuriyo Github account
+
++ sum added!
 
 
