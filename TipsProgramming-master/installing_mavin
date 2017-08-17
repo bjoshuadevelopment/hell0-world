@@ -1,0 +1,14 @@
+1. Search Maven package
+    $ apt-cache search maven
+2. Install it
+    sudo apt-get install maven
+3. Verification
+    $ mvn -version
+    
+    
+    extra
+Where is Maven installed?
+    /usr/share/maven
+    
+The Maven configuration files are stored in 
+    /etc/maven
